@@ -249,4 +249,164 @@ Lapres Jarkom Modul 4 A02
       ![cidr_tree](img/cidr_tree.jpg)
 
 ### Praktik pada UML
-  1.
+  1. Membuat topologi di UML. Penomoran switch pada topologi adalah sebagai berikut.
+      // gambar switch
+      ![topologi_uml1](img/topologi1.png)
+      ![topologi_uml2](img/topologi2.png)
+  2. Mengatur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon CIDR.
+      - IP pada interface SURABAYA
+          
+          ![int_sby1](img/surabaya1.png)
+          ![int_sby2](img/surabaya2.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke CLOUD
+          - eth1: Mengarah ke MOJOKERTO
+          - eth2: Mengarah ke BATU (A6)
+          - eth3: Mengarah ke PASURUAN (A2)
+          - eth4: Mengarah ke SAMPANG (A1)
+      - IP pada interface PASURUAN
+          
+          ![int_pas](img/pasuruan.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke SURABAYA (A2)
+          - eth1: Mengarah ke SIDOARJO (A7)
+          - eth2: Mengarah ke PROBOLINGGO (A3)
+      - IP pada interface PROBOLINGGO
+          
+          ![int_prob](img/probolinggo.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke PASURUAN (A3)
+          - eth1: Mengarah ke BANYUWANGI (A8)
+          - eth2: Mengarah ke BONDOWOSO (A4)
+      - IP pada interface MADIUN
+          
+          ![int_mdn](img/madiun.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke A5
+          - eth1: Mengarah ke BOJONEGORO (A9)
+      - IP pada interface BATU
+          
+          ![int_batu](img/batu.png)
+          
+          Keterangan:
+
+      - IP pada interface KEDIRI
+          
+          ![int_kediri](img/kediri.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke BATU (A11)
+          - eth1: Mengarah ke MALANG
+          - eth2: Mengarah ke A13
+      - IP pada interface BLITAR
+          
+          ![int_blt](img/blitar.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke A13
+          - eth1: Mengarah ke TULUNGAGUNG (A12)
+      - IP pada interface SAMPANG
+          
+          ![int_smp](img/sampang.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke SURABAYA (A1)
+      - IP pada interface SIDOARJO
+          
+          ![int_sda](img/sidoarjo.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke PASUEUAN (A7)
+      - IP pada interface BANYUWANGI
+          
+          ![int_byw](img/banyuwangi.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke PROBOLINGGO (A8)
+      - IP pada interface JEMBER
+          
+          ![int_jbr](img/jember.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke PROBOLINGGO (A8)
+      - IP pada interface BONDOWOSO
+          
+          ![int_bds](img/bondowoso.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke PROBOLINGGO (A4)
+      - IP pada interface JOMBANG
+          
+          ![int_jbg](img/jombang.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke A5
+      - IP pada interface BOJONEGORO
+          
+          ![int_bjn](img/bojonegoro.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke MADIUN (A9)
+      - IP pada interface NGANJUK
+          
+          ![int_ngj](img/nganjuk.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke BATU (A10)
+      - IP pada interface TULUNGAGUNG
+          
+          ![int_tlg](img/tulungagung.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke BLITAR (A12)
+      - IP pada interface LUMAJANG
+          
+          ![int_lmj](img/lumajang.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke A13
+      - IP pada interface MOJOKERTO
+          
+          ![int_mjk](img/mojokerto.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke SURABAYA
+      - IP pada interface MALANG
+          
+          ![int_mlg](img/malang.png)
+          
+          Keterangan:
+          - eth0: Mengarah ke KEDIRI
+  3. Melakukan routing dengan membuat file route.sh pada setiap Router.
+      - SURABAYA
+          
+          ![sby_route](img/surabayaroute.png)
+          
+          Keterangan:
+          - routing pertama adalah routing ke D1
+          - routing kedua adalah routing ke D2
+          - routing ketiga adalah routing ke MALANG
+      - PASURUAN
+          
+          ![pas_route](img/pasuruanroute.png)
+          
+          Keterangan:
+          - routing ke B2
+      - BATU
+          
+          ![batu_route](img/baturoute.png)
+          
+          Keterangan:
+          - routing pertama adalah routing ke B1
+          - routing kedua adalah routing ke A9
+          - routing ketiga adalah routing ke MALANG
+      - KEDIRI
+          
+          ![kdr_route](img/kediriroute.png)
+          
+          Keterangan:
+          - routing ke A12
