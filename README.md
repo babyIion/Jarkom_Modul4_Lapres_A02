@@ -250,7 +250,7 @@ Lapres Jarkom Modul 4 A02
 
 ### Praktik pada UML
   1. Membuat topologi di UML. Penomoran switch pada topologi adalah sebagai berikut.
-      // gambar switch
+      ![switch](img/switch.png)
       ![topologi_uml1](img/topologi1.png)
       ![topologi_uml2](img/topologi2.png)
   2. Mengatur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon CIDR.
