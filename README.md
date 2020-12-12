@@ -93,7 +93,7 @@ Lapres Jarkom Modul 4 A02
               ![kdr_mlg](img/kdr_int_mlg.png)
           - mengarah ke BATU (A6)
               
-              ![kdr_batu](img/kdr_int_a9.png)
+              ![kdr_batu](img/kdr_int_a6.png)
           - mengarah ke BLITAR (A2)
               
               ![kdr_blt](img/kdr_int_a2.png)
@@ -136,7 +136,7 @@ Lapres Jarkom Modul 4 A02
           ![client_sampang](img/cpt_lmj.png)
       - IP pada interface MOJOKERTO
           
-          ![client_sampang](img/cpt_mojo.png)
+          ![client_sampang](img/mojo.png)
       - IP pada interface MALANG
           
           ![client_sampang](img/cpt_malang.png)
@@ -290,9 +290,14 @@ Lapres Jarkom Modul 4 A02
           - eth1: Mengarah ke BOJONEGORO (A9)
       - IP pada interface BATU
           
-          ![int_batu](img/batu.png)
+          ![int_batu](img/batu1.png)
+          ![int_batu](img/batu2.png)
           
           Keterangan:
+          - eth0: Mengarah ke SURABAYA (A6)
+          - eth1: Mengarah ke MADIUN (A5)
+          - eth2: Mengarah ke NGANJUK (A10)
+          - eth3: Mengarah ke KEDIRI (A11)
 
       - IP pada interface KEDIRI
           
