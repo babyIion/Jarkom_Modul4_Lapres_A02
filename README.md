@@ -384,7 +384,7 @@ Lapres Jarkom Modul 4 A02
   3. Menyalakan IPv4 forwarding pada setiap router.
       - SURABAYA (contoh)
       
-          ![sby_forward](img/ipv4 forward.png)
+          ![sby_forward](img/ipv4%20forward.png)
           
   4. Melakukan routing dengan membuat file route.sh pada router yang bukan paling ujung.
       - SURABAYA
