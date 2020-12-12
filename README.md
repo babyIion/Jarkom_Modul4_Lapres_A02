@@ -385,6 +385,7 @@ Lapres Jarkom Modul 4 A02
       - SURABAYA (contoh)
       
           ![sby_forward](img/ipv4 forward.png)
+          
   4. Melakukan routing dengan membuat file route.sh pada router yang bukan paling ujung.
       - SURABAYA
           
