@@ -381,7 +381,11 @@ Lapres Jarkom Modul 4 A02
           
           Keterangan:
           - eth0: Mengarah ke KEDIRI
-  3. Melakukan routing dengan membuat file route.sh pada setiap Router.
+  3. Menyalakan IPv4 forwarding pada setiap router.
+      - SURABAYA (contoh)
+      
+          ![sby_forward](img/surabayaforward.png)
+  4. Melakukan routing dengan membuat file route.sh pada router yang bukan paling ujung.
       - SURABAYA
           
           ![sby_route](img/surabayaroute.png)
