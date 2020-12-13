@@ -139,7 +139,7 @@ Lapres Jarkom Modul 4 A02
           ![client_sampang](img/mojo.png)
       - IP pada interface MALANG
           
-          ![client_sampang](img/cpt_malang.png)
+          ![client_sampang](img/cpt_malang_rev.png)
   3. Melakukan routing pada setiap Router.
       - SURABAYA
           1. Routing ke A1
